@@ -44,8 +44,8 @@ require (
 	github.com/xanzy/ssh-agent v0.3.3 // indirect
 	github.com/xrash/smetrics v0.0.0-20231213231151-1d8dd44e695e // indirect
 	golang.org/x/crypto v0.22.0 // indirect; bumped from v0.21.0 to pick up latest security fixes
-	golang.org/x/net v0.23.0 // indirect; bumped from v0.21.0 to address CVE-2023-45288
-	golang.org/x/sys v0.18.0 // indirect
+	golang.org/x/net v0.24.0 // indirect; bumped from v0.23.0 to pick up further HTTP/2 hardening fixes
+	golang.org/x/sys v0.19.0 // indirect; bumped alongside x/net
 	golang.org/x/tools v0.18.0 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 )
